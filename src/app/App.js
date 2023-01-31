@@ -18,13 +18,19 @@ function App() {
     <Router>
       <Header />
       <main>
+      <Route path='/articles/:title'>
+          <Article />
+        </Route>
+        <Route path='/authors/:name'>
+          <Author />
+        </Route>
         <Route path='/about'>
           <About />
         </Route>
         <Route path='/sign-up'>
           <SignUp />
         </Route>
-        <Route path='/articles'>
+        <Route path='/articles/'>
           <Articles />
         </Route>
         <Route path='/categories'>
