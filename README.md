@@ -1,6 +1,6 @@
 Initial commit is the initial state of the project from Codecademy "Full-Stack Engineer" Path.
 
-During this lesson I got to know how: 
+During this lesson I got to know how to: 
 
 - Use the *Route* component to add routes to the application
 - Use the *Route* component’s **path** prop to specify static routes (those without URL parameters, eg. /users) and dynamic routes (those with URL parameters, eg /users/:userId)
