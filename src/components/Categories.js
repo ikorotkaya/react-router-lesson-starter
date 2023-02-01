@@ -22,6 +22,7 @@ export default function Categories () {
           })
         }
       </ul>
+      
       <Route path={`/${path}/:name`}>
         <Category />
       </Route>
